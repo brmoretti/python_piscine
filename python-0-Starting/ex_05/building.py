@@ -43,7 +43,7 @@ def main():
                 s = input("What is the text to count?\n")
                 s += "\n"
             except EOFError:
-                pass
+                s = ""
         elif len(sys.argv) == 2:
             s = sys.argv[1]
         elif len(sys.argv) > 2:
